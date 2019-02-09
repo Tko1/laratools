@@ -1,0 +1,11 @@
+* Goals
+** TODO Powerful repl wrapping tinker
+** TODO Interactive buffer 
+** TODO Consider magit-like interface for dealing with laravel command line 
+* Todos 
+** DONE Create function to start tinker buffer 
+   CLOSED: [2019-02-09 Sat 16:08]
+   - State "DONE"       from "TODO"       [2019-02-09 Sat 16:08]
+** TODO Create graceful failures for edge cases                      :bugfix:
+*** Edge case discoveries:
+**** TODO Fix when someone isn't using projectile
