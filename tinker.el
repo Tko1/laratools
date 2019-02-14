@@ -6,7 +6,7 @@
                          default-directory))
          (artisan (concat project-root "artisan"))
          (tinker-buffer        (make-comint-in-buffer "tinker" "app-lpsignals-tinker" "php" nil artisan "tinker")))
-    (set-buffer tinker-buffer)))
+    (set-window-buffer nil tinker-buffer)))
 (defun laratools/eval-function ()
    (interactive)
    (mark-defun)
